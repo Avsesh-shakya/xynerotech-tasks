@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:5174/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="module">import { injectIntoGlobalHook } from "/@react-refresh";
+injectIntoGlobalHook(window);
+window.$RefreshReg$ = () => {};
+window.$RefreshSig$ = () => (type) => type;</script>
+
+    <script type="module" src="./RTF Webside_files/client"></script>
+
+    
+    <link rel="icon" type="image/svg+xml" href="http://localhost:5174/vite.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RTF Webside</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- bootstrap css cdn -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+  <style type="text/css" data-vite-dev-id="C:/Users/hp/OneDrive/Desktop/rtf-project/rtf-frontend-project/src/index.css"></style><style type="text/css" data-vite-dev-id="C:/Users/hp/OneDrive/Desktop/rtf-project/rtf-frontend-project/src/App.css"></style><style type="text/css" data-vite-dev-id="C:/Users/hp/OneDrive/Desktop/rtf-project/rtf-frontend-project/src/components/Home.css">.header{
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A307A;
+    
+}
+.header ul{
+    color: white;
+    display: flex;
+       font-size: 19px;
+       align-items: center;
+ 
+       
+       
+    }
+    .header ul i{
+        margin-right: 7px;
+        
+        
+    }
+    .header ul li{
+        margin-left: 100px;
+        list-style: none;
+        margin-top: 5px;
+   
+}
+.right{
+     margin-left: 200px;
+     margin-top: 10px;
+
+}
+.right i{
+    display: inline;
+    margin-left: 20px;
+    font-size: 25px;
+   
+  
+}
+
+/* Navbar-section */
+
+.navbar{
+    display: flex;
+   height: 95px;
+   background-color: #FFFFFF;
+  
+}
+.navbar-logo img{
+
+    width: 150px;
+    height: 60px;
+    margin-left: 100px;
+
+   
+}
+.navbar-item{
+    margin-left: 0;
+  
+
+    
+    
+}
+.navbar-item ul{
+    margin-top: 2px;
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    
+}
+.navbar-item ul li{
+    margin: 0px 40px;
+    list-style: none;
+    cursor: pointer;
+   
+}
+.navbar-item ul li:hover{
+    color: #F1831B;
+   
+}
+.navbar-button{
+    margin-top: -5px;
+    height: 38px;
+    display: flex;
+    gap: 29px;
+    margin-right: 100px;
+}
+.login-button {
+    border-radius: 5px;
+    border: 1px solid #162C76;
+    background: transparent;
+    width: 120px;
+    justify-content: center;
+}
+.Quote-button{
+    border-radius: 5px;
+    background-color: #051753;
+    width: 120px;
+    justify-content: center;
+    color: white;
+}
+
+/* home section  */
+.home-section{
+    min-height: 500px;
+    display: flex;
+    background-color: #003B9B;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+  border: 1px solid #ccc;
+
+}
+.left-content{
+  
+   flex: 1;
+  min-width: 250px;
+  margin-right: 30px;
+
+}
+.left-content h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    
+    
+    
+    
+}
+.left-content h2{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F1831B;
+
+  
+}
+.left-content p{
+  font-size: 20px;  
+  font-weight: 400;
+  color: #D9D9D9;
+   
+
+}
+.left-content span{
+  font-size: 20px;  
+  font-weight: 600;
+  color: #F1831B;
+   
+
+}
+.left-content button{
+   
+    background-color: #FFFCFC;
+    height: 42px;
+    width: 165px;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-left: 5px;
+    border: none;
+    margin-right: 40px;
+    
+
+     
+}
+.left-content button i{
+    justify-content: center;
+    font-weight: 600;
+    padding-left: 5px;
+ 
+    
+
+     
+}
+.right-content{
+
+   display: flex;
+    gap: 15px;
+  flex-wrap: wrap;
+}
+.image-box{
+  
+    width: 270px;
+  height: 400px;
+  border-radius: 8px;
+  
+}
+.image-box img {
+    border-radius: 10px;
+    width: 100%;
+    height: 90%;
+    padding: 10px;
+  /* object-fit: cover; */
+}
+.right-content button{
+    background: transparent;
+    height: 59px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.trasted-company{
+    display: flex;
+    top: 10px;
+    flex-direction: column;
+      justify-content: center;
+}
+.company-icon{
+   display: flex;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+  padding: 23px;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  margin-top: 25px
+    
+}
+.heading h1{
+       font-size: 32px;
+       font-weight: 600;
+       text-align: center;
+       color: #2140A4;
+
+}
+.company-icon img{
+    width: 100px;
+    height: 50px;
+   
+ 
+}
+/* Prducts section  */
+.insurence-product{
+    margin-top: 30px;
+    text-align: center;
+    background-color: #E3E8F9;
+
+}
+.top-button button{
+
+    color: #08227A;
+    border-radius: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 150px;
+    height: 36px;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 20px;
+    border: 1px solid blue;
+}
+
+
+.insurence-heading h1{
+    color: #1032A1;
+    font-weight: 700;
+    font-size: 50px;
+}
+.insurence-heading p{
+    line-height: 5px;
+    margin-top: 20px;
+}
+.products-cards-top{
+     width: 350px;
+     padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+    
+
+
+.main-card-img img{
+    width: 100%;
+    height: 300px;
+
+}
+.card-buttom-image{
+   text-align: left;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   
+
+}
+.card-buttom-image img{
+    height: 50px;
+    width: 50px;
+    line-height: 20px;
+}
+.card-buttom-image button{
+    background-color:#f7b6794d;
+    border: 1px solid #FFAE63;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.card-buttom-image button i{
+    margin-top: 3px;
+    padding-left: 5px;
+}
+
+.insurence-service-section{
+    background-color: #F0F1F4;
+    align-items: center;
+    height: 720px;
+    position: relative;
+    margin: auto;
+}
+.main-card{
+   
+    position: absolute;
+    margin-top:  100px ;
+    margin-left:  250px ;
+    width: 500px;
+   
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    padding: 10px;
+
+    text-align:start;
+      border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  
+
+}
+.heading h1{
+    margin: 10px 10px;
+    text-align: start;
+    line-height: 23px;
+
+}
+.heading h1{
+    margin: 10px 10px;
+    text-align: start;
+    line-height: 23px;
+
+}
+.card-points{
+    margin: 20px 10px;
+
+}
+
+.child-card{
+    color: #003B9B;
+    position: absolute;
+
+    background-image:linear-gradient(to bottom right, #E8EBF0, #F4F8EB);
+    height: 300px;
+    width: 420px;
+    right: 100px;
+    bottom: 110px;
+    text-align: center;
+    border-radius: 20px;
+     border-radius: 8px;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.data-analyst{
+    height: 600px;
+    display: flex;
+    position: relative;
+    padding: 40px;
+    background-color: #FFE7E7;
+   
+
+}
+.data-analyst-heading h1{
+    color:#07299A;
+    font-weight: 600;
+
+}
+.data-analyst-heading button{
+    margin-top: 10px;
+   display: inline-block;
+    background-color: #f9b679c2;
+    border: 2px solid #07299A ;
+    border-radius: 10px;
+    height: 30px;
+    padding-left: 0px 30px;
+    color: white;
+    font-weight: 600;
+    
+
+}
+.data-analyst-left-side-icons{
+    position: absolute;
+    /* display: inline-block; */
+    top: 100px;
+    left: 50px;
+
+ 
+
+}
+.icon{
+    margin: 50px;
+    border-radius : 10px ;
+    /* width: 70px;
+    height: 70px; */
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   text-align: center;
+   font-size: 10px;
+
+}
+
+.data-analyst-left-side-icons img{
+   
+    width: 40px;
+    height: 40px;
+  
+}
+.data-analyst-right-side-content{
+    display: flex;
+    margin-top: 250px;
+    margin: auto;
+    background-color: #FF9634A3;
+    width: 700px;
+    
+}
+.data-analyst-right-side-content img{
+    margin-top: 20px;
+    margin-left: 80px;
+   
+}
+
+
+.contact-section{
+    background-color: #1A307A;
+    color: white;
+    justify-items: center;
+    padding-top: 50px;
+    margin: auto;
+}
+.contact-heading{
+    text-align: center;
+}
+
+.contact-heading p{
+    margin-top: 20px;
+    line-height: 5px;
+}
+.contact-button{
+    height: 40px;
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    
+}
+.contact-btn1{
+    color: #003B9B;
+    background-color: #F7AD46;
+    border-radius: 8px;
+    padding: 0px 20px;
+}
+.contact-btn2{
+    color: white;
+    background-color: #F7AD46;
+    border-radius: 8px;
+    padding: 0px 20px;
+}
+.contact-icons{
+    position: relative;
+    display: flex;
+    text-align: center;
+    gap: 70px;
+   margin-top: 40px;
+
+
+
+}
+.contact-icon i{
+    margin-top: 40px;
+   
+    width: 65px;
+    border: 1px solid red;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 10px;
+    background-color: #1d243975;
+
+}
+.contact-icon h3{
+    margin-top: 40px;
+}
+
+
+.contact-icon p{
+    font-size: 15px;
+    line-height: 8px;
+}
+
+/* footer contact  */
+.footer {
+  background-color: #D5DCFF;
+  padding: 50px 60px 20px;
+  font-family: sans-serif;
+  color: #1f2937;
+
+  
+
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 40px;
+}
+
+.footer-logo {
+  flex: 1 1 200px;
+  max-width: 200px;
+}
+
+.footer-logo img {
+  width: 250px;
+  height: 117px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+  font-size: 40px;
+  justify-content: center;
+}
+.social-icons img {
+  width: 42px;
+  height: 42px;
+}
+
+.footer-columns {
+
+  display: flex;
+  gap: 60px;
+  flex: 3;
+  flex-wrap: wrap;
+  margin-left: 160px;
+
+}
+
+.footer-columns h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer-columns ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-columns li {
+  margin-bottom: 6px;
+  font-size: 14px;
+  cursor: pointer;
+
+}
+
+.footer-columns li:hover {
+  color: #007bff;
+}
+
+.footer-apps-img{
+    display: flex;
+  border: 1px solid black;
+  border-radius: 10px ;
+  background-color: gainsboro;
+  margin-bottom: 30px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.footer-apps img {
+    margin-bottom: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.footer-apps h6 {
+    margin-top: 2px;
+    
+    font-size: 12px;
+    
+}
+.footer-apps h5{
+    font-size: 18px;
+    line-height: 1px
+    
+}
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.footer-bottom-links a {
+  margin-left: 20px;
+  color: #1f2937;
+  text-decoration: none;
+}
+
+.footer-bottom-links a:hover {
+  text-decoration: underline;
+}
+</style></head>
+  <body>
+    <div id="root"><div><header class="header"><div class="left-icon"><ul><li><i class="fa-solid fa-phone" style="color: rgb(241, 131, 27);"></i>+(111)99_454_234</li><li><i class="fa-solid fa-envelope" style="color: rgb(241, 131, 27);"></i>rtsinsurence@gmail.com</li><li><i class="fa-solid fa-location-dot" style="color: rgb(241, 131, 27);"></i>New Word city us</li><div class="right"><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-facebook-f"></i><i class="fa-brands fa-twitter"></i></div></ul></div></header><nav class="navbar"><div class="navbar-logo"><img alt="Webside logo" src="./RTF Webside_files/RTF-logo.png"></div><div class="navbar-item"><ul><li class="list-item">Home</li><li class="list-item">Product</li><li class="list-item">Elements</li><li class="list-item">Blog</li></ul></div><div class="navbar-button"><button class="login-button ">Login</button><button class="Quote-button ">Geta Quote</button></div></nav><section class="home-section"><div class="left-content"><h1>Your Trusted</h1><h2>Insurance </h2><h2>Partner</h2><p>Making insurance accessible, valuable, Your protection is our <span>life commitment</span></p><button>Explore products<i class="fa-solid fa-arrow-right-long"></i></button><button>Learn more <i class="fa-solid fa-arrow-right-long"></i></button></div><div class="right-content"><div class="image-box"><button>Health Insurence</button><img alt="" src="./RTF Webside_files/young-couple-car.jpg"></div><div class="image-box"><img alt="" src="./RTF Webside_files/portrait-family.jpg"><button>Motor Insurence</button></div><div class="image-box"><button>Home Insurence</button><img alt="" src="./RTF Webside_files/father-working-with-laptop.png"></div></div></section><div class="trasted-company"><div class="heading"><h1>Trusted by Leading Companies</h1></div><div class="company-icon"><img alt="" src="./RTF Webside_files/logo-1.png"><img alt="" src="./RTF Webside_files/ztt-logo-1024x540-2.png"><img alt="" src="./RTF Webside_files/15188-3.jpg"><img alt="" src="./RTF Webside_files/affinidi-5.png"><img alt="" src="./RTF Webside_files/tmc-7.jpg"><img alt="" src="./RTF Webside_files/sumsung-8.png"></div></div><div class="insurence-product"><div class="top-button"><button>Our Service</button></div><div class="insurence-heading"><h1>Insurence Products</h1><p>Comprehensive insurance solutions tailored to your individual and business</p><p>needs with industry-leading coverage and competitive rates</p></div><div class="products-cards-top"><div class="main-card-img"><img alt="" src="./RTF Webside_files/family-gup.png"></div><div class="card-buttom-image"><img alt="" src="./RTF Webside_files/grp.png"><h2>Health Insurence</h2><p>Lorem ipsum dolor sit amet, consecte adipisicing elit sed do.</p><button>Learn More<i class="fa-solid fa-arrow-right-long"></i> </button></div></div><div class="products-cards-top"><div class="main-card-img"><img alt="" src="./RTF Webside_files/happy-couple.jpg"></div><div class="card-buttom-image"><img alt="" src="./RTF Webside_files/grp.png"><h2>Health Insurence</h2><p>Lorem ipsum dolor sit amet, consecte adipisicing elit sed do.</p><button>Learn More<i class="fa-solid fa-arrow-right-long"></i> </button></div></div><div class="products-cards-top"><div class="main-card-img"><img alt="" src="./RTF Webside_files/male-work.jpg"></div><div class="card-buttom-image"><img alt="" src="./RTF Webside_files/doc.png"><h2>Health Insurence</h2><p>Lorem ipsum dolor sit amet, consecte adipisicing elit sed do.</p><button>Learn More<i class="fa-solid fa-arrow-right-long"></i> </button></div></div></div><div class="insurence-service-section"><div class="main-card"><div class="heading"><h1>Why Choose RTF</h1><h1>Isurence ?</h1></div><div class="card-points"><h5>Expert Guidance</h5><p>Our certified professionals provide personalized advice tailored to your unique needs.</p></div><div class="card-points"><h5>24/7 Support</h5><p>Round-the-clock assistance when you need it most, because emergencies don't wait.</p></div><div class="card-points"><h5>Trusted Partners</h5><p>We work with A-rated insurance companies to ensure your claims are paid promptly.</p></div><div class="card-points"><h5>Simplified Process</h5><p>From quotes to claims, we've streamlined everything to save you time and hassle.</p></div></div><div class="  "><div class="child-heading"><h5>Your Protection, Our Promise</h5><p>Dedicated to Safeguarding whatmatters most to you</p></div></div></div><div class="data-analyst"><div class="data-analyst-heading"><h1>Glimpses of our -</h1><div class="buttons"><button>E.B Portal</button><button>Employee App</button></div></div><div class="data-analyst-left-side-icons"><div class="icon"><img alt="" src="./RTF Webside_files/icon1.png">Hr Dashboard </div><div class="icon"><img alt="" src="./RTF Webside_files/icon2.png">Claim List </div><div class="icon"><img alt="" src="./RTF Webside_files/icon3.png">Policy List </div><div class="icon"><img alt="" src="./RTF Webside_files/icon4.png">Monthly Reporting </div></div><div class="data-analyst-right-side-content"><img alt="" src="./RTF Webside_files/icon5main.png"></div></div><div class="contact-section"><div class="contact-heading"><h1>Ready to Get Protected?</h1><p>Take the first step towards securing your future. Get a personalized </p><p>insurance quote in just minutes and discover how affordable protection can be</p></div><div class="contact-button"><button class="contact-btn1">Get Free Quote <i class="fa-solid fa-arrow-right-long"></i></button><button class="contact-btn2">+1(555) 123-4567</button></div><div class="contact-icons"><div class="contact-icon"><i class="fa-solid fa-phone  " style="color: rgb(243, 146, 9); border: 1px solid rgb(243, 146, 9);"></i><h3>Call Us</h3><p>+1 (555) 123-4567</p><p>Available 24/7 for emergencies</p></div><div class="contact-icon"><i class="fa-solid fa-envelope " style="color: rgb(89, 205, 58); border: 1px solid rgb(89, 205, 58);"></i><h3>Email US</h3><p>info@rtfinsurance.com</p><p>We’ll respond within 24 hours</p></div><div class="contact-icon"><i class="fa-solid fa-location-dot" style="color: rgb(243, 146, 9); border: 1px solid rgb(243, 146, 9);"></i><h3>Visit Us </h3><p>123 Insurance Ave ,SUIT </p><p>Monday - Friday, 9AM - 6PM</p></div></div></div><footer class="footer"><div class="footer-top"><div class="footer-logo"><img alt="RTF Logo" src="./RTF Webside_files/RTF-logo.png"><div class="social-icons"><i class="fa-brands fa-square-instagram"></i><i class="fa-brands fa-facebook" style="color: rgb(24, 119, 242);"></i><img alt="linkedin" src="./RTF Webside_files/linkedin.png"></div></div><div class="footer-columns"><div><h4>Learn More</h4><ul><li>About Us</li><li>FAQs</li><li>Blogs</li><li>Careers</li><li>Privacy &amp; Policy</li><li>Terms &amp; Conditions</li></ul></div><div><h4>RTF Care Products</h4><ul><li>Health Insurance</li><li>Home &amp; Digital Care</li><li>Motor Insurance</li><li>Travel Insurance</li><li>Opd &amp; Wellness</li></ul></div><div><h4>RTF Business</h4><ul><li>S.E.M. Insurance</li><li>Employee Benefit Insurance</li><li>Office Package Insurance</li><li>Liability Insurance</li><li>Engineering Insurance</li></ul></div><div class="footer-apps" style="
+"><h4>App for Employees</h4><div class="footer-apps-img"><img alt="Google Play" src="./RTF Webside_files/playstore.png"><div><h6>GET IN ON</h6><h5>Google Play</h5></div></div><div class="footer-apps-img"><img alt="Apple Store" src="./RTF Webside_files/apple.png"><div><h6>Download on the</h6><h5>App Store</h5></div></div></div></div></div><div class="footer-bottom"><p>© 2025 RTF Insurance Brokers Pvt Ltd. All rights reserved.</p><div class="footer-bottom-links"><a href="http://localhost:5174/#">Privacy Policy</a><a href="http://localhost:5174/#">Terms of Service</a><a href="http://localhost:5174/#">Accessibility</a></div></div></footer></div></div>
+    <script type="module" src="./RTF Webside_files/main.jsx"></script>
+    <!-- bootstrap javascript cdn-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+  
+
+</body></html>
